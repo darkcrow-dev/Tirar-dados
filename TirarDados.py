@@ -47,7 +47,6 @@ if(opcionUsuario.lower() == "SI".lower()):
         dado2 = random.randint(1, 6)
 
         print("\nValores de dados lanzados", "\nDado 1: ", dado1, "\nDado 2: ", dado2)
-        #print("Valores de dados lanzados \nDado 1: {} \nDado 2: {}".format(dado1, dado2))
         print("\n".join(dadoDibujos[dado1]))
         print("\n".join(dadoDibujos[dado2]))
     
