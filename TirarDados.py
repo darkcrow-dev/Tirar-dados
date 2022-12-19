@@ -43,8 +43,8 @@ opcionUsuario = input("Desea tirar los dados? Si/No: ")
 
 if(opcionUsuario.lower() == "SI".lower()):
     while(True):
-        dado1 = random.randint(1, 6)
-        dado2 = random.randint(1, 6)
+        dado1 = random.randint(1, 6)    #tiro del dado 1
+        dado2 = random.randint(1, 6)    #tiro del dado 2
 
         print("\nValores de dados lanzados", "\nDado 1: ", dado1, "\nDado 2: ", dado2)
         print("\n".join(dadoDibujos[dado1]))
